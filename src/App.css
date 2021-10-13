@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navb{
+  text-align: center !important;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: white;
+  border-radius: 30px;
+}
+input,.btn{
+  margin-bottom: 25px !important;
+}
+.btn{
+  margin-left: 15px;
+  border-radius: 100px !important;
+}
+.navb1{
+  text-align: center !important;
+  margin-top: 20px !important;
+  margin-left: 200px !important;
+  margin-right: 200px !important;
+  background-color: white;
+  border-radius: 30px;
+}
+.todobar{
+  margin-top: 50px !important;
+  margin-left: 200px !important;
+  margin-right: 200px !important;
+  background-color: white;
+  border-radius: 30px;
+}
+h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+  background-image:url(https://us.123rf.com/450wm/tumsasedgars/tumsasedgars1904/tumsasedgars190400111/121845190-to-do-list-business-education-and-success-background.jpg?ver=6);
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
